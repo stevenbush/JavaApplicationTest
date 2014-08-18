@@ -1,4 +1,5 @@
 
+import javax.swing.JDialog;
 import javax.swing.JFrame;
 
 /*
@@ -74,6 +75,8 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        JDialog newJDialog = new NewJDialog(this, true);
+        newJDialog.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
